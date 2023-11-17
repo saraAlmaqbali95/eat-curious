@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "build": "tailwindcss -i ./assets/input.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./assets/input.css -o ./dist/output.css --watch",
+    "start": "webpack serve --mode development",
+    "buildTS": "webpack --mode production"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.5",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.2.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "gsap": "^3.12.2"
+  }
+}
